@@ -12,7 +12,7 @@ import systemImage from "./assets/sistema-web.jpeg";
 function App() {
   function consultarServicio(servicio) {
     const texto = `Hola Kent, quiero información sobre el servicio de ${servicio}.`;
-    const url = `https://wa.me/593967709773?text=${encodeURIComponent(texto)}`;
+    const url = `https://wa.me/593969489821?text=${encodeURIComponent(texto)}`;
 
     window.open(url, "_blank");
   }
