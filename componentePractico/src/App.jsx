@@ -32,7 +32,7 @@ function App() {
     }
 
     const texto = `Hola Brian, soy ${nombre}. Mi contacto es ${contacto}. Quiero información sobre soluciones digitales. Mi mensaje es: ${mensaje}`;
-    const url = `https://wa.me/59396948982?text=${encodeURIComponent(texto)}`;
+    const url = `https://wa.me/593969489821?text=${encodeURIComponent(texto)}`;
 
     window.open(url, "_blank");
   }
